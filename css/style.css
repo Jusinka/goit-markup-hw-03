@@ -1,0 +1,124 @@
+body{
+    color: #434455;
+    background-color:#FFFFFF;
+    font-family:Roboto,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    font-weight:Regular;
+}
+button{
+    font-family:Roboto,sans-serif;
+    font-size:16px;
+    line-height:24px;
+    font-weight: 500;
+    letter-spacing:0.04em;
+    background-color: #4D5AE5;
+    cursor:pointer ;
+    color: #FFFFFF;
+}
+button:hover,
+button:focus{
+    background-color: #404BBF;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
+    margin: 0px;
+}
+.logo{
+    font-family:Raleway,sans-serif;
+    font-weight:700;
+    font-size:18px;
+    line-height:1.17;
+    letter-spacing:0.03em;
+    text-transform: uppercase;
+    justify-content:center;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+.logo_half{
+    color:#2e2f42;
+    font-family:Raleway;
+    font-size: 18px;
+    font-weight: 700;
+}
+.logo_info{
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
+}
+.logo_half_footer{
+    color: #f4f4fd;
+}
+.footer{
+    background-color:#2e2f42;
+}
+.nav_link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: #404bbf;
+}
+.nav_link:focus{
+    color: #404bbf;
+}
+.addres_info:hover{
+    color: #404bbf;
+}
+.addres_info:focus{
+    color:#404bbf;
+}
+.addres_info{
+    font-size: 16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color:#434455;
+    text-decoration: none;
+}
+.title{
+    font-size:36px;
+    line-height:1.11;
+    text-align: center;
+    letter-spacing:0.02em;
+    text-transform:capitalize;
+    color: #2e2f42;
+}
+.addres_cursiv{
+    font-style: normal;
+}
+.main_section{
+    background-color: #2e2f42;
+}
+.main_title{
+    font-size:56px;
+    line-height:1.07;
+    text-align:center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.content{
+    font-weight:500;
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing:0.02em;
+    color: #2e2f42;
+}
+.paragraph{
+    font-weight:500;
+    font-size:16px;
+    line-height:1.5;
+    letter-spacing:0.02em;
+    color:#434455;
+}
+.section{
+    background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.image{
+    background-color:#FFFFFF;
+}
+.list_op{list-style: none;}
