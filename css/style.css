@@ -16,6 +16,12 @@ button{
     background-color: #4D5AE5;
     cursor:pointer ;
     color: #FFFFFF;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+
 }
 button:hover,
 button:focus{
@@ -34,6 +40,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
     justify-content:center;
     color: #4D5AE5;
     text-decoration: none;
+    margin-right: 76px;
 }
 .logo_half{
     color:#2e2f42;
@@ -91,6 +98,8 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
 }
 .main_section{
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 .main_title{
     font-size:56px;
@@ -98,6 +107,8 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
     text-align:center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    max-width: 496px;
+
 }
 .content{
     font-weight:500;
@@ -122,3 +133,19 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
     background-color:#FFFFFF;
 }
 .list_op{list-style: none;}
+img{display: block;}
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.container{
+    width: 1158px;
+    padding:0 15px 0 15px;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.title_2{
+    display: none;
+}
