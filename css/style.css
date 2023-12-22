@@ -147,6 +147,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
     list-style: none;
     gap: 40px;
     display: flex;
+    gap: 24px;
 }
 
 img{
@@ -177,20 +178,25 @@ img{
     display: inline-block;
     margin-bottom: 16px;
 }
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
-  }
+.visually_hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+      }
   .gapforlist{
     width: calc((100% - 72px) / 4);
   }
   .portfolio_member{
         padding: 32px 0 32px;
   }
-  
+.list_width{
+    width:calc((100% - 72px) / 4);
+}
