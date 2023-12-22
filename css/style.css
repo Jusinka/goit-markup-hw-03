@@ -96,6 +96,8 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
     letter-spacing:0.02em;
     text-transform:capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+
 }
 .addres_cursiv{
     font-style: normal;
@@ -120,6 +122,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
     line-height:1.2;
     letter-spacing:0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .paragraph{
     font-weight:500;
@@ -135,6 +138,9 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
 }
 .image{
     background-color:#FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+
 }
 
 .list_op{
@@ -160,9 +166,6 @@ img{
     display: flex;
     align-items: center;
 }
-.title_2{
-    display: none;
-}
 .container_nav{
     display: flex;
 }
@@ -174,3 +177,20 @@ img{
     display: inline-block;
     margin-bottom: 16px;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+  .gapforlist{
+    width: calc((100% - 72px) / 4);
+  }
+  .portfolio_member{
+        padding: 32px 0 32px;
+  }
+  
