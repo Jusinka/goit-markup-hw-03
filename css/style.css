@@ -197,7 +197,7 @@ img{
         padding: 32px 0 32px;
   }
 .list_width{
-    width:calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .list_gap{
     gap: 24px;
