@@ -123,6 +123,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
     letter-spacing:0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+    width: calc((100% - 72px) / 4)
 }
 .paragraph{
     font-weight:500;
@@ -147,7 +148,6 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
     list-style: none;
     gap: 40px;
     display: flex;
-    gap: 24px;
 }
 
 img{
