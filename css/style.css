@@ -192,11 +192,11 @@ img{
         clip: rect(0 0 0 0);
         overflow: hidden;
       }
-  .gapforlist{
+.gapforlist{
     width: calc((100% - 72px) / 4);
   }
-  .portfolio_member{
-        padding: 32px 0 32px;
+.portfolio_member{
+   padding: 32px 0 32px;
   }
 .list_width{
     width: calc((100% - 72px) / 4);
@@ -227,6 +227,8 @@ img{
 .list_three_section{
     gap: 24px;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 .li_port{
     width: calc(((100% - 72px) / 4));
