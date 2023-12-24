@@ -52,6 +52,7 @@ h1 ,h2 ,h3 ,h4 ,h5 ,h6 ,ul ,p{
 .logo_info{
     color:#F4F4FD;
     letter-spacing: 0.02em;
+    max-width: 496px;
 }
 .logo_half_footer{
     color: #f4f4fd;
@@ -248,4 +249,12 @@ img{
     background-color: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.content_portfolio{
+    font-weight:500;
+    font-size:20px;
+    line-height:1.2;
+    letter-spacing:0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
 }
